@@ -1,0 +1,177 @@
+/*IMPORTO UNA FONT PARA EL NAV*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Josefin+Sans:wght@600&family=Noto+Sans+Buhid&display=swap');
+/*IMPORTO UNA FONT PARA EL RESTO DE LA WEB*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+
+/*Mobile first*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+
+}
+
+header {
+    padding: 20px;
+    background-color: #2b579e;
+    border: 0px;
+    display: grid;
+    justify-content: center;
+}
+
+/*Organización del Logo en el nav */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans Buhid', sans-serif;
+}
+
+/*Organización del  nav */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+
+}
+
+/*Tamaño del logo */
+#logo_menu {
+    height: 50px;
+}
+
+footer {
+    padding: 30px;
+    background-color: #2b579e;
+}
+
+/*Iconos de pie */
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pie_pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pie_pagina p {
+    color: blanchedalmond;
+
+}
+
+/*Formulario */
+.formulario {
+    padding: 30px;
+    margin: 50px;
+}
+
+.nombre {
+    padding-left: 30px;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+
+.apellido {
+    padding-left: 30px;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+
+.mail {
+    padding-left: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.campo {
+    padding-left: 20px;
+}
+
+.campo_mail {
+    padding-left: 20px;
+}
+
+.mensaje {
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+.botones_fomrularios {
+    align-items: center;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans Buhid', sans-serif;
+}
+
+
+
+#carrusel {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*Sección capacitaciones*/
+
+.capacitaciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.imagenes_capacitacion {
+    width: 30%;
+    height: 30%;
+}
+
+.capacitaciones_descripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    text-align: center;
+}
+
+/*Espacio en blanco para diferenciar el footer y el header*/
+.espacio_blanco {
+    height: 500px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
